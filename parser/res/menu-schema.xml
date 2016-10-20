@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.example.org/menu-schema"
+	xsi:schemaLocation="http://www.example.org/menu-schema menu-schema.xsd">
+ 
+ 
+  <menuSection dischTypeName="coldSnack">
+   
+    <dish id="1">
+    
+      <picture>http://tempuri.org</picture>
+      <title>Ассорти рыбное</title>
+      <description>Слабосоленая форель, семга</description>
+      <portion>100/20/15</portion>
+      <price>10</price>
+      
+    </dish>
+    
+    <dish id="2">
+    
+      <picture>http://tempuri.org</picture>
+      <title>Тарталетки с красной икрой</title>
+      <description>Тарталетки с красной икрой</description>
+      <portion>60/50</portion>
+      <price>15</price>
+      
+    </dish>
+    
+    <dish id="3">
+    
+      <picture>http://tempuri.org</picture>
+      <title>Закуска по-русски</title>
+      <description>Кусочки атлантической сельди с отварным картофелем, луком, лимоном и зеленью</description>
+      <portion>70/50/120</portion>
+      <price>15</price>
+      
+    </dish>
+    
+    <dish id="4">
+    
+      <picture>http://tempuri.org</picture>
+      <title>Куринный рулет</title>
+      <description>Куринный рулет собственного производства</description>
+      <portion>100/5</portion>
+      <price>8</price>
+      
+    </dish>
+    
+    <dish id="5">
+    
+      <picture>http://tempuri.org</picture>
+      <title>Бастурма</title>
+      <description>Вяленая вырезка из говяжьего мяса</description>
+      <portion>50/5</portion>
+      <price>6</price>
+         </dish>
+    
+    <dish id="6">
+    
+      <picture>http://tempuri.org</picture>
+      <title>Ассорти мясное</title>
+      <description>Нарезка из буженины, бастурмы, куринного рулета собственного производства и колбасы</description>
+      <portion>100/30</portion>
+      <price>10</price>
+         </dish>
+    
+    
+  </menuSection>
+  
+   <menuSection dischTypeName="hotSnack">
+   
+       <dish id="7">
+    
+      <picture>http://tempuri.org</picture>
+      <title>Ассорти мясное</title>
+      <description>Нарезка из буженины, бастурмы, куринного рулета собственного производства и колбасы</description>
+      <portion>100/30</portion>
+      <price>10</price>
+      
+    </dish>
+   
+   </menuSection>
+  
+  
+</menu>

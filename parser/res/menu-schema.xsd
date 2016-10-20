@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema 	xmlns="http://www.w3.org/2001/XMLSchema"
+		    targetNamespace="http://www.example.org/menu-schema"
+		    xmlns:tns="http://www.example.org/menu-schema"
+		     elementFormDefault="qualified">
+
+	<element name="menu">
+		<complexType>
+			<sequence>
+				<element name="menuSection" type="tns:dischType" minOccurs="1"
+					maxOccurs="12" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="dischType">
+		<sequence>
+			<element name="dish"  type="tns:dish" minOccurs="0" maxOccurs="unbounded" />
+		</sequence>
+		
+		<attribute name="dischTypeName" use="required">
+			<simpleType>
+				<restriction base="string">
+					<enumeration value="coldSnack"></enumeration>
+					<enumeration value="hotSnack"></enumeration>
+					<enumeration value="breakfast"></enumeration>
+					<enumeration value="salad"></enumeration>
+					<enumeration value="soup"></enumeration>
+					<enumeration value="fish"></enumeration>
+					<enumeration value="meat"></enumeration>
+					<enumeration value="garnish"></enumeration>
+					<enumeration value="dishOnFire"></enumeration>
+					<enumeration value="fromChef"></enumeration>
+					<enumeration value="attachment"></enumeration>
+					<enumeration value="dessert"></enumeration>
+				</restriction>
+			</simpleType>
+		</attribute>
+	</complexType>
+
+	<complexType name="dish" >
+		<sequence>
+			<element name="picture" type="anyURI" />
+			<element name="title" type="string" />
+			<element name="description" type="string" />
+			<element name="portion" type="string"/>
+			<element name="price" type="int"/>
+		</sequence>
+		
+	<attribute name="id" use="required">
+	</attribute>
+	
+	</complexType>
+
+</schema>

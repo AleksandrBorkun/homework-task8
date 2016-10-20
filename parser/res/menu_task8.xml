@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.example.org/menu_task8"
+	xsi:schemaLocation="http://www.example.org/menu_schema_task8 menu_schema_task8.xsd">
+
+	<coldSnack>
+		<dish id="1">
+			<picture>reqCircle.jpg</picture>
+			<title>Тарталетки с красной икрой</title>
+			<description>Тарталетки с красной икрой</description>
+			<portion>60/50</portion>
+			<price></price>
+		</dish>
+		<dish id="2">
+			<picture>zakuska.jpg</picture>
+			<title>Закуска по-русски</title>
+			<description>Кусочки атлантической сельди с отварным картофелем,
+				луком, лимоном и зеленью
+			</description>
+			<portion>70/50/2/10</portion>
+			<price></price>
+		</dish>
+	</coldSnack>
+
+
+</menu>

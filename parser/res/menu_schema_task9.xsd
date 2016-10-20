@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/menu_schema_task9"
+	xmlns:tns="http://www.example.org/menu_schema_task9" elementFormDefault="qualified">
+	
+	
+	<element name="menu">
+		<complexType>
+			<sequence>
+					<element name="string" type="tns:dish"/>
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="dish" id="int">
+		<sequence>
+			<element name="picture" type="anyURI" />
+			<element name="title" type="string" />
+			<element name="description" type="string" />
+			<element name="portion" type="string"/>
+			<element name="price" type="int"/>
+		</sequence>
+	</complexType>
+	
+	
+</schema>

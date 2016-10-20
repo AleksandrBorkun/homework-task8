@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/menu_schema_task8"
+	xmlns:tns="http://www.example.org/menu_schema_task8" elementFormDefault="qualified">
+	
+	
+	<element name="menu">
+		<complexType>
+			<sequence>
+					<element name="coldSnack" type="tns:dish"/>
+					<element name="hotSnack" type="tns:dish"/>
+					<element name="breakfast" type="tns:dish"/>
+					<element name="salad" type="tns:dish"/>
+					<element name="soup" type="tns:dish"/>
+					<element name="fish" type="tns:dish"/>
+					<element name="meat" type="tns:dish"/>
+					<element name="garnish" type="tns:dish"/>
+					<element name="dishOnFire" type="tns:dish"/>
+					<element name="fromChef" type="tns:dish"/>
+					<element name="attachment" type="tns:dish"/>
+					<element name="dessert" type="tns:dish"/>
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="dish" id="int">
+		<sequence>
+			<element name="picture" type="anyURI" />
+			<element name="title" type="string" />
+			<element name="description" type="string" />
+			<element name="portion" type="string"/>
+			<element name="price" type="int"/>
+		</sequence>
+	</complexType>
+	
+	
+</schema>
