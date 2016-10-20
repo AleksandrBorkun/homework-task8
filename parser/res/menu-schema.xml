@@ -1,85 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xmlns="http://www.example.org/menu-schema"
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/menu-schema"
 	xsi:schemaLocation="http://www.example.org/menu-schema menu-schema.xsd">
- 
- 
-  <menuSection dischTypeName="coldSnack">
-   
-    <dish id="1">
-    
-      <picture>http://tempuri.org</picture>
-      <title>Ассорти рыбное</title>
-      <description>Слабосоленая форель, семга</description>
-      <portion>100/20/15</portion>
-      <price>10</price>
-      
-    </dish>
-    
-    <dish id="2">
-    
-      <picture>http://tempuri.org</picture>
-      <title>Тарталетки с красной икрой</title>
-      <description>Тарталетки с красной икрой</description>
-      <portion>60/50</portion>
-      <price>15</price>
-      
-    </dish>
-    
-    <dish id="3">
-    
-      <picture>http://tempuri.org</picture>
-      <title>Закуска по-русски</title>
-      <description>Кусочки атлантической сельди с отварным картофелем, луком, лимоном и зеленью</description>
-      <portion>70/50/120</portion>
-      <price>15</price>
-      
-    </dish>
-    
-    <dish id="4">
-    
-      <picture>http://tempuri.org</picture>
-      <title>Куринный рулет</title>
-      <description>Куринный рулет собственного производства</description>
-      <portion>100/5</portion>
-      <price>8</price>
-      
-    </dish>
-    
-    <dish id="5">
-    
-      <picture>http://tempuri.org</picture>
-      <title>Бастурма</title>
-      <description>Вяленая вырезка из говяжьего мяса</description>
-      <portion>50/5</portion>
-      <price>6</price>
-         </dish>
-    
-    <dish id="6">
-    
-      <picture>http://tempuri.org</picture>
-      <title>Ассорти мясное</title>
-      <description>Нарезка из буженины, бастурмы, куринного рулета собственного производства и колбасы</description>
-      <portion>100/30</portion>
-      <price>10</price>
-         </dish>
-    
-    
-  </menuSection>
-  
-   <menuSection dischTypeName="hotSnack">
-   
-       <dish id="7">
-    
-      <picture>http://tempuri.org</picture>
-      <title>Ассорти мясное</title>
-      <description>Нарезка из буженины, бастурмы, куринного рулета собственного производства и колбасы</description>
-      <portion>100/30</portion>
-      <price>10</price>
-      
-    </dish>
-   
-   </menuSection>
-  
-  
+
+
+	<menuSection dischTypeName="coldSnack">
+
+		<dish id="001">
+
+			<picture>http://tempuri.org</picture>
+			<title>Ассорти рыбное</title>
+			<description>Слабосоленая форель, семга</description>
+			<portion>100/20/15</portion>
+			<price>10</price>
+
+		</dish>
+
+		<dish id="002">
+
+			<picture>http://tempuri.org</picture>
+			<title>Тарталетки с красной икрой</title>
+			<description>Тарталетки с красной икрой</description>
+			<portion>60/50</portion>
+			<price>15</price>
+
+		</dish>
+
+		<dish id="003">
+
+			<picture>http://tempuri.org</picture>
+			<title>Закуска по-русски</title>
+			<description>Кусочки атлантической сельди с отварным картофелем, луком, лимоном и зеленью</description>
+			<portion>70/50/120</portion>
+			<price>15</price>
+
+		</dish>
+
+		<dish id="004">
+
+			<picture>http://tempuri.org</picture>
+			<title>Куринный рулет</title>
+			<description>Куринный рулет собственного производства</description>
+			<portion>100/5</portion>
+			<price>8</price>
+
+		</dish>
+
+		<dish id="005">
+
+			<picture>http://tempuri.org</picture>
+			<title>Бастурма</title>
+			<description>Вяленая вырезка из говяжьего мяса</description>
+			<portion>50/5</portion>
+			<price>6</price>
+		</dish>
+
+		<dish id="006">
+
+			<picture>http://tempuri.org</picture>
+			<title>Ассорти мясное</title>
+			<description>Нарезка из буженины, бастурмы, куринного рулета собственного производства и колбасы</description>
+			<portion>100/30</portion>
+			<price>10</price>
+		</dish>
+
+		<dish id="007">
+			<picture>http://tempuri.org</picture>
+			<title>Язык отварной</title>
+			<description>Нарезка нежного говяжьего языкаб подается с хреном</description>
+			<portion>100/5</portion>
+			<price>13</price>
+		</dish>
+
+		<dish id="008">
+			<picture>http://tempuri.org</picture>
+			<title>Жаренные баклажаны</title>
+			<description>с помидорами</description>
+			<portion>80/20/1</portion>
+			<price>13</price>
+		</dish>
+
+		<dish id="009">
+			<picture>http://tempuri.org</picture>
+			<title>Жаренные баклажаны</title>
+			<description>с чесноком</description>
+			<portion>100/5</portion>
+			<price>13</price>
+		</dish>
+
+		<dish id="010">
+			<picture>http://tempuri.org</picture>
+			<title>Жаренные баклажаны</title>
+			<description>с орехами</description>
+			<portion>100/5</portion>
+			<price>13</price>
+		</dish>
+
+
+	</menuSection>
+
+	<menuSection dischTypeName="hotSnack">
+
+		<dish id="100">
+
+			<picture>http://tempuri.org</picture>
+			<title>Лобио с шампиньонами:</title>
+			<description>Фасоль с шампиньонами и грецкими орехами</description>
+			<portion>100/30</portion>
+			<price>15</price>
+
+		</dish>
+
+		<dish id="101">
+			<picture>http://tempuri.org</picture>
+			<title>Мидии по-турецки</title>
+			<description>Мидии, фаршированные сыром и грецкими орехами</description>
+			<portion>150/30</portion>
+			<price>190</price>
+		</dish>
+
+		<dish id="102">
+			<picture>http://tempuri.org</picture>
+			<title>Креветки</title>
+			<description>Отварые мидии со вкусненьким соусом</description>
+			<portion>120/30</portion>
+			<price>135</price>
+		</dish>
+
+
+	</menuSection>
+
+	<menuSection dischTypeName="breakfast">
+
+		<dish id="200">
+			<picture>http://tempuri.org</picture>
+			<title>Глазунья</title>
+			<description>2 яйца(на выбор: ветчина, сыр, помидоры)</description>
+			<portion>150</portion>
+			<price>5</price>
+		</dish>
+
+	</menuSection>
+
+	<menuSection dischTypeName="salad">
+
+		<dish id="300">
+			<picture>http://tempuri.org</picture>
+			<title>Цезарь с курицей</title>
+			<description>Помидоры чери, гренки из белого хлеба выложенные на листья салата и рукколы, посыпанные пармезаном и заправленные оливковым маслом. Украшаеться каперсами, оливками, кунжутом и перепелиным яйцом.</description>
+			<portion>250</portion>
+			<price>15</price>
+		</dish>
+
+	</menuSection>
+
+	<menuSection dischTypeName="soup">
+
+		<dish id="400">
+			<picture>http://tempuri.org</picture>
+			<title>Борщ</title>
+			<description>Борщ украинский с фасолью.</description>
+			<portion>250</portion>
+			<price>15</price>
+		</dish>
+
+	</menuSection>
+
 </menu>
